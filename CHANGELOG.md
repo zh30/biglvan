@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.5](https://github.com/hertzZhang/BigIvan/compare/v0.0.4...v0.0.5) (2019-12-05)
+
+
+### Features
+
+* **package.json:** 升级依赖包 ([03c4a7e](https://github.com/hertzZhang/BigIvan/commit/03c4a7ee6b895cca7ecb8e5cc85dbdb4840cc8cb))
+
 ### [0.0.4](https://github.com/hertzZhang/BigIvan/compare/v0.0.3...v0.0.4) (2019-12-05)
 
 ### [0.0.3](https://github.com/hertzZhang/BigIvan/compare/v0.0.2...v0.0.3) (2019-12-05)
