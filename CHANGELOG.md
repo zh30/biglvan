@@ -1,3 +1,15 @@
+# Changelog
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### 0.0.2 (2019-12-05)
+
+
+### Features
+
+* **init:** 初始化项目目录 ([9623651](https://github.com/hertzZhang/BigIvan/commit/9623651eb53ad440fb22b12e8c81db1344351565))
+* **package.json:** 增加commitlint相关操作依赖包 ([a168004](https://github.com/hertzZhang/BigIvan/commit/a16800482a81caa851c9f0013712bcc252ec7122))
+
 # Change Log
 
 All notable changes to the "biglvan" extension will be documented in this file.
