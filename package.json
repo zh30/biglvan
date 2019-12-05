@@ -45,7 +45,7 @@
     "@commitlint/config-conventional": "^8.2.0",
     "@types/glob": "^7.1.1",
     "@types/mocha": "^5.2.6",
-    "@types/node": "^10.12.21",
+    "@types/node": "^12.12.14",
     "@types/vscode": "^1.40.0",
     "glob": "^7.1.4",
     "husky": "^3.1.0",
