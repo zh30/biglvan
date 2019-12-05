@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.3](https://github.com/hertzZhang/BigIvan/compare/v0.0.2...v0.0.3) (2019-12-05)
+
+
+### Features
+
+* **readme.md:** 修改readme.md文件 ([2126c75](https://github.com/hertzZhang/BigIvan/commit/2126c75519b483d4b195d34eac43aac87223831a))
+
 ### 0.0.2 (2019-12-05)
 
 
