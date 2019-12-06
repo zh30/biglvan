@@ -3,7 +3,7 @@
   "icon": "assets/icons/logoBeta.png",
   "displayName": "Big Lvan",
   "description": "Big lvan 会是你最得意的编写代码的武器。",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "publisher": "ZhangHe",
   "engines": {
     "vscode": "^1.40.0"
