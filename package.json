@@ -2,15 +2,15 @@
   "name": "biglvan",
   "icon": "assets/icons/logoBeta.png",
   "displayName": "Big Lvan",
-  "description": "Big lvan 会是你最得意的代码武器。",
-  "version": "0.0.5",
+  "description": "Big lvan 会是你最得意的编写代码的武器。",
+  "version": "0.0.6",
   "publisher": "ZhangHe",
   "engines": {
     "vscode": "^1.40.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hertzZhang/BigIvan.git"
+    "url": "https://github.com/hertzZhang/biglvan.git"
   },
   "categories": [
     "Other"

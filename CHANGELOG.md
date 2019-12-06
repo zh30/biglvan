@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.6](https://github.com/hertzZhang/biglvan/compare/v0.0.5...v0.0.6) (2019-12-06)
+
+
+### Bug Fixes
+
+* **package.json:** 修改GitHub地址 ([d49dcf2](https://github.com/hertzZhang/biglvan/commit/d49dcf28562f8621083a33dce80e6740dde242df))
+
 ### [0.0.5](https://github.com/hertzZhang/BigIvan/compare/v0.0.4...v0.0.5) (2019-12-05)
 
 
