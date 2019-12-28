@@ -1,0 +1,10 @@
+{
+  "Remove Duplicates from an Array": {
+    "prefix": [
+      "ard",
+      "arrayremoveduplicates"
+    ],
+    "body": "const ${2:unique} = [...new Set(${1:array})]$0",
+    "description": "移除数组中重复项"
+  }
+}

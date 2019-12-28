@@ -13,12 +13,11 @@
     "url": "https://github.com/hertzZhang/biglvan.git"
   },
   "categories": [
-    "Other"
+    "Snippets"
   ],
   "keywords": [
     "Toolkit",
-    "Snippets",
-    "China"
+    "Snippets"
   ],
   "activationEvents": [
     "onCommand:extension.helloWorld"
@@ -29,6 +28,16 @@
       {
         "command": "extension.helloWorld",
         "title": "Hello World"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/js.snippets.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/js.snippets.json"
       }
     ]
   },
