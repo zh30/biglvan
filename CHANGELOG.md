@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.7](https://github.com/hertzZhang/biglvan/compare/v0.0.6...v0.0.7) (2019-12-29)
+
+
+### Features
+
+* **js.snippets.json:** 增加js用户代码片段 ([649775a](https://github.com/hertzZhang/biglvan/commit/649775a5e3a7507ddf6f8598cf4e5e9e470e4681))
+
 ### [0.0.6](https://github.com/hertzZhang/biglvan/compare/v0.0.5...v0.0.6) (2019-12-06)
 
 
