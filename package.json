@@ -38,6 +38,10 @@
       {
         "language": "javascriptreact",
         "path": "./snippets/js.snippets.json"
+      },
+      {
+        "language": "markdown",
+        "path": "./snippets/md.snippets.json"
       }
     ]
   },

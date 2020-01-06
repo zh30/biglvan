@@ -1,0 +1,18 @@
+{
+  "Add Yaml Info": {
+    "prefix": ["yaml"],
+    "body": [
+      "---",
+      "layout: ${1|post,default|}",
+      "title: '${2}'",
+      "date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE",
+      "description: '${3}'",
+      "image: ${4:/}",
+      "author: ${5:zhanghe}",
+      "tags:",
+      "\t- ${6:Javascript}",
+      "---"
+    ],
+    "description": "添加文章配置信息"
+  }
+}
