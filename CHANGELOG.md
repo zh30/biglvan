@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.8](https://github.com/hertzZhang/biglvan/compare/v0.0.7...v0.0.8) (2020-01-06)
+
+
+### Features
+
+* **md.snippets.json:** 增加md文件的yaml的用户代码片段 ([d163ec6](https://github.com/hertzZhang/biglvan/commit/d163ec654596500f41e6965da46bc062fcc88006))
+
 ### [0.0.7](https://github.com/hertzZhang/biglvan/compare/v0.0.6...v0.0.7) (2019-12-29)
 
 
