@@ -1,8 +1,8 @@
 {
   "name": "biglvan",
-  "icon": "assets/icons/logoBeta.png",
+  "icon": "assets/icons/logo.png",
   "displayName": "Big Lvan",
-  "description": "Big lvan 会是你最得意的编写代码的武器。",
+  "description": "Deno toolkit for VS Code",
   "version": "0.0.8",
   "publisher": "ZhangHe",
   "engines": {
@@ -13,9 +13,11 @@
     "url": "https://github.com/hertzZhang/biglvan.git"
   },
   "categories": [
+    "Programming Languages",
     "Snippets"
   ],
   "keywords": [
+    "Deno",
     "Toolkit",
     "Snippets"
   ],
@@ -43,6 +45,20 @@
         "language": "markdown",
         "path": "./snippets/md.snippets.json"
       }
+    ],
+    "languages": [
+      {
+        "id": "deno",
+        "extensions": [
+          ".js",
+          ".ts"
+        ],
+        "aliases": [
+          "deno",
+          "denoland"
+        ],
+        "configuration": "./languages/deno.language-configuration.json"
+      }
     ]
   },
   "scripts": {
@@ -63,7 +79,7 @@
     "glob": "^7.1.4",
     "husky": "^3.1.0",
     "mocha": "^6.1.4",
-    "standard-version": "^7.0.0",
+    "standard-version": "^7.1.0",
     "tslint": "^5.12.1",
     "typescript": "^3.3.1",
     "vscode-test": "^1.2.0"
