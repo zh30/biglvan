@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.10](https://github.com/zhanghecool/biglvan/compare/v0.0.9...v0.0.10) (2020-05-21)
+
+
+### Features
+
+* **package.json:** 增加typedoc文档组件 ([e09a00b](https://github.com/zhanghecool/biglvan/commit/e09a00bd8ab5ab8ec76b6cf404521f3241b49c4c))
+* **package.json:** 增加typedoc文档组件 ([429106e](https://github.com/zhanghecool/biglvan/commit/429106e02b7167b5b2eb6c72e6cad95f566c3b81))
+* **settings.json:** 升级typescript版本 ([186d61c](https://github.com/zhanghecool/biglvan/commit/186d61cac782733a52e0cc56c89d469255707502))
+* **yarn.lock:** 合并 ([eebe270](https://github.com/zhanghecool/biglvan/commit/eebe27088215556b0ad5345eae195c9816d1d0fb))
+
 ### [0.0.9](https://github.com/hertzZhang/biglvan/compare/v0.0.8...v0.0.9) (2020-04-28)
 
 
