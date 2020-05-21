@@ -32,6 +32,9 @@ jobs:
       with:
         node-version: '12.x'
 
+    - name: Install dependencies
+      run: yarn
+    
     # Runs a set of commands using the runners shell
     - name: Vsce publish
       env:
