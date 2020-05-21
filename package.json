@@ -45,20 +45,6 @@
         "language": "markdown",
         "path": "./snippets/md.snippets.json"
       }
-    ],
-    "languages": [
-      {
-        "id": "deno",
-        "extensions": [
-          ".js",
-          ".ts"
-        ],
-        "aliases": [
-          "deno",
-          "denoland"
-        ],
-        "configuration": "./languages/deno.language-configuration.json"
-      }
     ]
   },
   "scripts": {
