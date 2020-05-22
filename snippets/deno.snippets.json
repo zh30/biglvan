@@ -1,0 +1,52 @@
+{
+  "DenoChmod": {
+    "prefix": ["dchm", "Deno.chmod"],
+    "body": "Deno.chmod('${1:path}', ${2:mode});$0",
+    "description": "更改指定路径下特定的文件/目录的权限。忽略进程的 umask。该 API 当前在 Windows 上使用会抛出异常。"
+  },
+  "DenoChmodSync": {
+    "prefix": ["dchms", "Deno.chmodSync"],
+    "body": "Deno.chmodSync('${1:path}', ${2:mode});$0",
+    "description": "更改指定路径下特定的文件/目录的权限。忽略进程的 umask。该 API 当前在 Windows 上使用会抛出异常。"
+  },
+  "DenoChown": {
+    "prefix": ["dcho", "Deno.chown"],
+    "body": "Deno.chown('${1:path}', ${2:uid}, ${3:gid});$0",
+    "description": "更改常规文件或目录的所有者。该功能在 Windows 上不可用。"
+  },
+  "DenoChownSync": {
+    "prefix": ["dchos", "Deno.chownSync"],
+    "body": "Deno.chownSync('${1:path}', ${2:uid}, ${3:gid});$0",
+    "description": "更改常规文件或目录的所有者。该功能在 Windows 上不可用。"
+  },
+  "DenoClose": {
+    "prefix": ["dclo", "Deno.close"],
+    "body": "Deno.close(${1:rid});$0",
+    "description": "使用给定的资源 ID (rid) 来关闭先前创建或打开的文件。 为避免资源泄露，事关重大，文件应当用完即关。"
+  },
+  "DenoConnectTLS": {
+    "prefix": ["dcont", "Deno.connectTLS"],
+    "body": "Deno.connectTLS(${1:options});$0",
+    "description": "使用可选的证书文件、主机名（默认值为 '127.0.0.1'） 和端口在 TLS（安全传输层协议）建立安全连接。 证书文件是可选的，如果不包含，则使用 Mozilla 的根证书。"
+  },
+  "DenoCopy": {
+    "prefix": ["dcp", "Deno.copy"],
+    "body": "Deno.copy(${1:dst}, ${2:src});$0",
+    "description": "从 src 拷贝文件至 dst，拷贝至 src 的 EOF 或有异常出现时结束。 copy() 函数返回一个 Promise, 成功时 resolve 并返回拷贝的字节数，失败时 reject 并返回拷贝过程中的首个异常。"
+  },
+  "DenoCopyFile": {
+    "prefix": ["dcpf", "Deno.copyFile"],
+    "body": "Deno.copyFile(${1:fromPath}, ${2:toPath});$0",
+    "description": "将一个文件的内容和权限复制到另一个指定的路径，默认情况下根据需要 创建新文件或者覆盖原文件。 如果目标路径是目录或不可写，则失败。"
+  },
+  "DenoCopyFileSync": {
+    "prefix": ["dcpfs", "Deno.copyFileSync"],
+    "body": "Deno.copyFileSync(${1:fromPath}, ${2:toPath});$0",
+    "description": "采用同步方式将一个文件的内容和权限复制到另一个指定的路径，默认情况下根据需要 创建新文件或者覆盖原文件。 如果目标路径是目录或不可写，则失败。"
+  },
+  "DenoCreateSync": {
+    "prefix": ["dcres", "Deno.createSync"],
+    "body": "Deno.createSync(${1:path});$0",
+    "description": "创建文件并异步返回一个 Deno.File 实例，如果文件已存在则进行覆盖。"
+  }
+}
