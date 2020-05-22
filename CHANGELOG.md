@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.11](https://github.com/zhanghecool/biglvan/compare/v0.0.10...v0.0.11) (2020-05-22)
+
+
+### Features
+
+* **deno.snippets.json:** 增加deno代码片段 ([af5303b](https://github.com/zhanghecool/biglvan/commit/af5303b2093a2810f17b46507aa5e7d68cab3259))
+
 ### [0.0.10](https://github.com/zhanghecool/biglvan/compare/v0.0.9...v0.0.10) (2020-05-21)
 
 

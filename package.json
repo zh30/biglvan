@@ -3,7 +3,7 @@
   "icon": "assets/icons/logo.png",
   "displayName": "Big Lvan",
   "description": "Deno toolkit for VS Code",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "publisher": "ZhangHe",
   "engines": {
     "vscode": "^1.40.0"
@@ -26,24 +26,14 @@
   ],
   "main": "./out/extension.js",
   "contributes": {
-    "commands": [
-      {
-        "command": "extension.helloWorld",
-        "title": "Hello World"
-      }
-    ],
     "snippets": [
       {
         "language": "javascript",
-        "path": "./snippets/js.snippets.json"
+        "path": "./snippets/deno.snippets.json"
       },
       {
-        "language": "javascriptreact",
-        "path": "./snippets/js.snippets.json"
-      },
-      {
-        "language": "markdown",
-        "path": "./snippets/md.snippets.json"
+        "language": "typescript",
+        "path": "./snippets/deno.snippets.json"
       }
     ]
   },
