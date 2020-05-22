@@ -37,4 +37,5 @@ jobs:
         RELEASE_VERSION: ${{ steps.vars.outputs.tag }}
       run: |
         echo RELEASE_VERSION is $RELEASE_VERSION.
+        echo Tag_name is ${{ github.ref }}
         npx vsce publish --yarn -p $VSCE_TOKEN
