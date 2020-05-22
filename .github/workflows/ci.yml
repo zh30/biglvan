@@ -33,7 +33,7 @@ jobs:
         node-version: '12.x'
 
     - name: Install dependencies
-      run: npm install
+      run: yarn
     
     # Runs a set of commands using the runners shell
     - name: Vsce publish
@@ -41,6 +41,5 @@ jobs:
         VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}
         RELEASE_VERSION: ${{ steps.vars.outputs.tag }}
       run: |
-        echo VSCE_TOKEN is $VSCE_TOKEN,
         echo RELEASE_VERSION is $RELEASE_VERSION.
-        npx vsce publish -p $VSCE_TOKEN
+        npx vsce publish --yarn -p $VSCE_TOKEN
