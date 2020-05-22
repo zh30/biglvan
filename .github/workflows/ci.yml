@@ -6,10 +6,8 @@ name: CI
 # events but only for the master branch
 on:
   pull_request:
-    branches:
-      - master
     tags: 
-      - 'v*.*.*'
+      - 'v*'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -25,7 +23,7 @@ jobs:
     - name: Use Node.js
       uses: actions/setup-node@v1
       with:
-        node-version: '12.x'
+        node-version: '12'
 
     - name: Install dependencies
       run: yarn
@@ -37,5 +35,6 @@ jobs:
         RELEASE_VERSION: ${{ steps.vars.outputs.tag }}
       run: |
         echo RELEASE_VERSION is $RELEASE_VERSION.
+        echo release_version is ${{ steps.vars.outputs.tag }}
         echo Tag_name is ${{ github.ref }}
         npx vsce publish --yarn -p $VSCE_TOKEN
