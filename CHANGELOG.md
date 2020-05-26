@@ -1,5 +1,14 @@
 # Changelog
 
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### [0.1.2](https://github.com/zhanghecool/biglvan/compare/v0.0.12...v0.1.2) (2020-05-26)
+
+
+### Features
+
+* **md:** 增加markdown文件的用户代码片段 ([2a993be](https://github.com/zhanghecool/biglvan/commit/2a993be810c40b713f7d7e534732125c05a3c569))
+
 ### [0.0.12](https://github.com/zhanghecool/biglvan/compare/v0.0.11...v0.0.12) (2020-05-22)
 
 ### [0.0.11](https://github.com/zhanghecool/biglvan/compare/v0.0.10...v0.0.11) (2020-05-22)
