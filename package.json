@@ -19,7 +19,8 @@
   "keywords": [
     "Deno",
     "Toolkit",
-    "Snippets"
+    "Snippets",
+    "md"
   ],
   "activationEvents": [
     "onCommand:extension.helloWorld"
@@ -34,6 +35,10 @@
       {
         "language": "typescript",
         "path": "./snippets/deno.snippets.json"
+      },
+      {
+        "language": "markdown",
+        "path": "./snippets/md.snippets.json"
       }
     ]
   },
