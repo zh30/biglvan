@@ -3,7 +3,7 @@
   "icon": "assets/icons/logo.png",
   "displayName": "Big Lvan",
   "description": "Deno toolkit for VS Code",
-  "version": "0.0.12",
+  "version": "0.1.2",
   "publisher": "ZhangHe",
   "engines": {
     "vscode": "^1.40.0"
