@@ -14,5 +14,120 @@
       "---"
     ],
     "description": "添加文章配置信息"
+  },
+  "Table": {
+    "prefix": ["tab", "table"],
+    "body": [
+      "| ${1:Names} | ${2:Age} | ${3:Cool} |",
+      "| ----- | :-: | ---: |",
+      "| ${4:He}    | ${5:18}  |  ${6:Yes} |"
+    ],
+    "description": "Markdown tables support"
+  },
+  "H1": {
+    "prefix": ["h1"],
+    "body": ["# ${1:H1}"],
+    "description": "H1"
+  },
+  "H2": {
+    "prefix": ["h2"],
+    "body": ["## ${1:H2}"],
+    "description": "H2"
+  },
+  "H3": {
+    "prefix": ["h3"],
+    "body": ["### ${1:H3}"],
+    "description": "H3"
+  },
+  "H4": {
+    "prefix": ["h4"],
+    "body": ["#### ${1:H4}"],
+    "description": "H4"
+  },
+  "H5": {
+    "prefix": ["h5"],
+    "body": ["##### ${1:H5}"],
+    "description": "H5"
+  },
+  "H6": {
+    "prefix": ["h6"],
+    "body": ["###### ${1:H6}"],
+    "description": "H6"
+  },
+  "Quote": {
+    "prefix": ["quote", "quo"],
+    "body": [
+      "> ${1:Coffee. The finest organic suspension ever devised... I beat the Borg with it.}",
+      "> ${2:Captain Janeway}"
+    ],
+    "description": "Quote"
+  },
+  "Bold": {
+    "prefix": ["bo"],
+    "body": ["**${1:Bold}**"],
+    "description": "Bold"
+  },
+  "Italics": {
+    "prefix": ["ita"],
+    "body": ["*${1:Italics}*"],
+    "description": "Italics"
+  },
+  "Delete": {
+    "prefix": ["del"],
+    "body": ["~~${1:Delete}~~"],
+    "description": "Delete"
+  },
+  "List": {
+    "prefix": ["list"],
+    "body": [
+      "1. ${1:First ordered list item}",
+      "2. ${2:Another item}",
+      "3. ${3:And another item}"
+    ],
+    "description": "List"
+  },
+  "UnorderedList": {
+    "prefix": ["ulist", "uli"],
+    "body": [
+      "* ${1:Unordered list can use asterisks}",
+      "- ${2:Or minuses}",
+      "+ ${3:Or pluses}"
+    ],
+    "description": "Unordered List"
+  },
+  "Link": {
+    "prefix": ["link", "li"],
+    "body": [
+      "[${1:link}](${2|http,https|}://${3:zhanghe.cool} '${4:Link's title}')"
+    ],
+    "description": "Link"
+  },
+  "Image": {
+    "prefix": ["img"],
+    "body": [
+      "![${1:alt text}](${2|http,https|}://${3:Image's src} '${4:Image's title}')"
+    ],
+    "description": "Image"
+  },
+  "Code": {
+    "prefix": ["code"],
+    "body": [
+      "```${1|javascript,bash,rust,java,python,php,go|}",
+      "\tif (isAwesome){",
+      "\t\treturn true",
+      "\t}",
+      "```"
+    ],
+    "description": "Code"
+  },
+  "InlineCode": {
+    "prefix": ["icode"],
+    "body": ["`${1:var example = true}`"],
+    "description": "InlineCode"
+  },
+  "TasksLists": {
+    "prefix": ["task"],
+    "body": ["- [${1| ,x|}] ${2:This is a complete item}"],
+    "description": "TasksLists"
   }
 }
