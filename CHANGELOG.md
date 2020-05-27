@@ -1,3 +1,10 @@
+## [0.3.1](https://github.com/zhanghecool/biglvan/compare/v0.3.0...v0.3.1) (2020-05-27)
+
+
+### Bug Fixes
+
+* **package.json:** delete @semantic-release/git assets ([578c92d](https://github.com/zhanghecool/biglvan/commit/578c92dfce40db3a99372a05d0c972197cfcffad))
+
 # [0.3.0](https://github.com/zhanghecool/biglvan/compare/v0.2.1...v0.3.0) (2020-05-27)
 
 
