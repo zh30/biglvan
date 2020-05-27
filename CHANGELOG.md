@@ -1,3 +1,22 @@
+# [0.2.0](https://github.com/zhanghecool/biglvan/compare/v0.1.2...v0.2.0) (2020-05-27)
+
+
+### Bug Fixes
+
+* **package.json:** add @semantic-release/changelog ([49e17b3](https://github.com/zhanghecool/biglvan/commit/49e17b3b4f86690b6c633827ec83cac41e6c1cb3))
+* **readme.md:** 删除readme.md的build徽章 ([57915ab](https://github.com/zhanghecool/biglvan/commit/57915ab07aefa9aaf0a5a3920ee72e65b6024d57))
+
+
+### Features
+
+* **md:** 增加markdown文件的用户代码片段 ([cab888a](https://github.com/zhanghecool/biglvan/commit/cab888a8b2586f9e11429e8c47dd9a07a1688a5e))
+* **package.json:** add @semantic-release/changelog ([b23fff2](https://github.com/zhanghecool/biglvan/commit/b23fff21993f3a56a90549d97f8a18d01d112b5d))
+
+
+### Performance Improvements
+
+* **md.snippets.json:** 优化md用户代码片段 ([47aeb10](https://github.com/zhanghecool/biglvan/commit/47aeb10ec037531655250f4beb02643dfd38232c))
+
 # Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
