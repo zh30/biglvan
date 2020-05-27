@@ -36,5 +36,4 @@ jobs:
       run: |
         npx vsce package --yarn
         yarn release
-        cat package.json
         npx vsce publish --yarn -p $VSCE_TOKEN
