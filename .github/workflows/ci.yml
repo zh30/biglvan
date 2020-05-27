@@ -33,6 +33,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}
       run: |
+        npx vsce package --yarn
         yarn release
         cat package.json
         npx vsce publish --yarn -p $VSCE_TOKEN
