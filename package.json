@@ -98,7 +98,7 @@
           "assets": [
             {
               "path": "biglvan-*.vsix",
-              "label": "VCSE Package",
+              "label": "Biglvan Package",
               "name": "Biglvan.vsix"
             }
           ]
