@@ -28,18 +28,11 @@ jobs:
     - name: Install dependencies
       run: yarn
     
-    - name: Release
+    - name: Release and Vsce publish
       env:
         GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-      run: npx semantic-release
-    
-    # Runs a set of commands using the runners shell
-    - name: Vsce publish
-      env:
         VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}
-        RELEASE_VERSION: ${{ steps.vars.outputs.tag }}
       run: |
-        echo RELEASE_VERSION is $RELEASE_VERSION.
-        echo release_version is ${{ steps.vars.outputs.tag }}
-        echo Tag_name is ${{ github.ref }}
+        yarn release
+        cat package.json
         npx vsce publish --yarn -p $VSCE_TOKEN
