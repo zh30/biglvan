@@ -17,9 +17,6 @@
 
 * **md.snippets.json:** 优化md用户代码片段 ([47aeb10](https://github.com/zhanghecool/biglvan/commit/47aeb10ec037531655250f4beb02643dfd38232c))
 
-# Changelog
-
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 ### [0.1.2](https://github.com/zhanghecool/biglvan/compare/v0.0.12...v0.1.2) (2020-05-26)
 
