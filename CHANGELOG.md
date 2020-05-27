@@ -1,3 +1,10 @@
+## [0.3.2](https://github.com/zhanghecool/biglvan/compare/v0.3.1...v0.3.2) (2020-05-27)
+
+
+### Bug Fixes
+
+* **package.json:** 修改package.json ([9a83bca](https://github.com/zhanghecool/biglvan/commit/9a83bca3dcd85044de97df07e0aa5105ee4cfb8d))
+
 ## [0.3.1](https://github.com/zhanghecool/biglvan/compare/v0.3.0...v0.3.1) (2020-05-27)
 
 
