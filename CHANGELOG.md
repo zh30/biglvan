@@ -1,3 +1,10 @@
+## [0.2.1](https://github.com/zhanghecool/biglvan/compare/v0.2.0...v0.2.1) (2020-05-27)
+
+
+### Bug Fixes
+
+* **package.json:** [@semantic-release](https://github.com/semantic-release) ([719c319](https://github.com/zhanghecool/biglvan/commit/719c319724c17400e534431ef0033d76214ffaf6))
+
 # [0.2.0](https://github.com/zhanghecool/biglvan/compare/v0.1.2...v0.2.0) (2020-05-27)
 
 
