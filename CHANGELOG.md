@@ -1,3 +1,10 @@
+## [0.3.4](https://github.com/zhanghecool/biglvan/compare/v0.3.3...v0.3.4) (2020-05-27)
+
+
+### Bug Fixes
+
+* **package.json:** 优化@semantic-release/npm配置 ([e685ff4](https://github.com/zhanghecool/biglvan/commit/e685ff4e4875f1c8e7e39436b70ea2d424c3247b))
+
 ## [0.3.3](https://github.com/zhanghecool/biglvan/compare/v0.3.2...v0.3.3) (2020-05-27)
 
 
