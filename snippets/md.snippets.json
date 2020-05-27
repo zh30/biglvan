@@ -55,7 +55,7 @@
     "description": "H6"
   },
   "Quote": {
-    "prefix": ["quote", "quo"],
+    "prefix": ["quote", "quo", "yinyong"],
     "body": [
       "> ${1:Coffee. The finest organic suspension ever devised... I beat the Borg with it.}",
       "> ${2:Captain Janeway}"
@@ -73,12 +73,12 @@
     "description": "Italics"
   },
   "Delete": {
-    "prefix": ["del"],
+    "prefix": ["del", "delete"],
     "body": ["~~${1:Delete}~~"],
     "description": "Delete"
   },
   "List": {
-    "prefix": ["list"],
+    "prefix": ["list", "li"],
     "body": [
       "1. ${1:First ordered list item}",
       "2. ${2:Another item}",
@@ -96,21 +96,21 @@
     "description": "Unordered List"
   },
   "Link": {
-    "prefix": ["link", "li"],
+    "prefix": ["link", "a"],
     "body": [
       "[${1:link}](${2|http,https|}://${3:zhanghe.cool} '${4:Link's title}')"
     ],
     "description": "Link"
   },
   "Image": {
-    "prefix": ["img"],
+    "prefix": ["img", "image"],
     "body": [
       "![${1:alt text}](${2|http,https|}://${3:Image's src} '${4:Image's title}')"
     ],
     "description": "Image"
   },
   "Code": {
-    "prefix": ["code"],
+    "prefix": ["code", "co"],
     "body": [
       "```${1|javascript,bash,rust,java,python,php,go|}",
       "\tif (isAwesome){",
@@ -121,7 +121,7 @@
     "description": "Code"
   },
   "InlineCode": {
-    "prefix": ["icode"],
+    "prefix": ["icode", "ico"],
     "body": ["`${1:var example = true}`"],
     "description": "InlineCode"
   },
