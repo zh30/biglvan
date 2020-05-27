@@ -3,7 +3,7 @@
   "icon": "assets/icons/logo.png",
   "displayName": "Big Lvan",
   "description": "User code snippets for markdown and deno",
-  "version": "0.1.2",
+  "version": "0.2.1",
   "publisher": "ZhangHe",
   "engines": {
     "vscode": "^1.40.0"
@@ -48,7 +48,7 @@
     "watch": "tsc -watch -p ./",
     "pretest": "yarn run compile",
     "test": "node ./out/test/runTest.js",
-    "release": "standard-version"
+    "release": "semantic-release"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
@@ -96,7 +96,8 @@
             "snippets",
             "src",
             "CHANGELOG.md",
-            "package.json"
+            "package.json",
+            "yarn.lock"
           ],
           "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
         }
