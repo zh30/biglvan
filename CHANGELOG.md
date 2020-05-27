@@ -1,3 +1,11 @@
+## [0.3.6](https://github.com/zhanghecool/biglvan/compare/v0.3.5...v0.3.6) (2020-05-27)
+
+
+### Performance Improvements
+
+* **package.json:** 优化发版流程 ([01fb3c0](https://github.com/zhanghecool/biglvan/commit/01fb3c00b8c784a9cf671fc3f29877edfb7ac946))
+* **readme.md:** 删除build badge ([edc90b5](https://github.com/zhanghecool/biglvan/commit/edc90b52005623ead61872d40c644aaaf792edef))
+
 ## [0.3.5](https://github.com/zhanghecool/biglvan/compare/v0.3.4...v0.3.5) (2020-05-27)
 
 
