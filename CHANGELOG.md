@@ -1,3 +1,10 @@
+# [0.3.0](https://github.com/zhanghecool/biglvan/compare/v0.2.1...v0.3.0) (2020-05-27)
+
+
+### Features
+
+* **package.json:** 修改@semantic-release/github配置 ([f7e7cfc](https://github.com/zhanghecool/biglvan/commit/f7e7cfcb457a72f7160388918fe4c05eaaa695e6))
+
 ## [0.2.1](https://github.com/zhanghecool/biglvan/compare/v0.2.0...v0.2.1) (2020-05-27)
 
 
