@@ -1,3 +1,10 @@
+## [0.3.3](https://github.com/zhanghecool/biglvan/compare/v0.3.2...v0.3.3) (2020-05-27)
+
+
+### Performance Improvements
+
+* **package.json:** 优化自动部署流程 ([d87b1ff](https://github.com/zhanghecool/biglvan/commit/d87b1ffb2d2a58c3f624045abd367a0012169f3f))
+
 ## [0.3.2](https://github.com/zhanghecool/biglvan/compare/v0.3.1...v0.3.2) (2020-05-27)
 
 
