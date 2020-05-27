@@ -87,12 +87,6 @@
       "@semantic-release/release-notes-generator",
       "@semantic-release/changelog",
       [
-        "@semantic-release/git",
-        {
-          "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
-        }
-      ],
-      [
         "@semantic-release/github",
         {
           "assets": [
@@ -102,6 +96,22 @@
               "name": "Biglvan.vsix"
             }
           ]
+        }
+      ],
+      [
+        "@semantic-release/git",
+        {
+          "assets": [
+            "asstes/*",
+            "docs/*",
+            "languages/*",
+            "snippets/*",
+            "src/*",
+            "CHANGELOG.md",
+            "package.json",
+            "yarn.lock"
+          ],
+          "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
         }
       ]
     ]
