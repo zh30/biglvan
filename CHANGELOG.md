@@ -1,3 +1,10 @@
+## [0.3.5](https://github.com/zhanghecool/biglvan/compare/v0.3.4...v0.3.5) (2020-05-27)
+
+
+### Performance Improvements
+
+* **package.json:** 优化发布流程 ([6ae0b33](https://github.com/zhanghecool/biglvan/commit/6ae0b335ab4cb0a5a84015136867623fb1294c05))
+
 ## [0.3.4](https://github.com/zhanghecool/biglvan/compare/v0.3.3...v0.3.4) (2020-05-27)
 
 
