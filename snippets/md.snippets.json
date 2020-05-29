@@ -112,7 +112,7 @@
   "Code": {
     "prefix": ["code", "co"],
     "body": [
-      "```${1|javascript,bash,rust,java,python,php,go|}",
+      "```${1|javascript,markdown,bash,rust,java,python,php,go|}",
       "\tif (isAwesome){",
       "\t\treturn true",
       "\t}",
