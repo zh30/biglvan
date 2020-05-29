@@ -1,3 +1,10 @@
+# [0.4.0](https://github.com/zhanghecool/biglvan/compare/v0.3.6...v0.4.0) (2020-05-29)
+
+
+### Features
+
+* **readme.md:** 增加说明文案 ([ac70c65](https://github.com/zhanghecool/biglvan/commit/ac70c652dde0c45a7b81b47d3070ccd7a8d2131a))
+
 ## [0.3.6](https://github.com/zhanghecool/biglvan/compare/v0.3.5...v0.3.6) (2020-05-27)
 
 
