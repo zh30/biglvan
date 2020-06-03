@@ -145,9 +145,9 @@
     "description": "Image"
   },
   "ImageWH": {
-    "prefix": ["img", "image"],
+    "prefix": ["imgwh", "imagewh"],
     "body": [
-      "![1:alt text](${2:Image's src}){:height='${3:36px}' width='${4:36px}'}"
+      "![${1:alt text}](${2:Image's src}){:height='${3:36px}' width='${4:36px}'}"
     ],
     "description": "Image with width height"
   },
@@ -178,21 +178,21 @@
     "description": "Abbreviations"
   },
   "GithubCDN": {
-    "prefix": ["ghcdn"],
+    "prefix": ["cdngh"],
     "body": [
       "https://cdn.jsdelivr.net/gh/${1:user}/${2:repo}@${3:version}/{4:file path}"
     ],
     "description": "Jsdelivr github cdn"
   },
   "NpmCDN": {
-    "prefix": ["npmcdn"],
+    "prefix": ["cdnnpm"],
     "body": [
       "https://cdn.jsdelivr.net/npm/${1:package}@${2:version}/{3:file path}"
     ],
     "description": "Jsdelivr npm cdn"
   },
   "WPCDN": {
-    "prefix": ["wpcdn"],
+    "prefix": ["cdnwp"],
     "body": [
       "https://cdn.jsdelivr.net/wp/${1:plugins}/${2:project}/${3:tags}/${4:version}/{4:file path}"
     ],
