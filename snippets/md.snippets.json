@@ -54,6 +54,36 @@
     "body": ["###### ${1:H6}"],
     "description": "H6"
   },
+  "H1ID": {
+    "prefix": ["h1id"],
+    "body": ["# ${1:H1}  {#${2:head_1}}"],
+    "description": "H1 with id"
+  },
+  "H2ID": {
+    "prefix": ["h2id"],
+    "body": ["## ${1:H2}  {#${2:head_1}}"],
+    "description": "H2 with id"
+  },
+  "H3ID": {
+    "prefix": ["h3id"],
+    "body": ["### ${1:H3}  {#${2:head_1}}"],
+    "description": "H3 with id"
+  },
+  "H4ID": {
+    "prefix": ["h4id"],
+    "body": ["#### ${1:H4}  {#${2:head_1}}"],
+    "description": "H4 with id"
+  },
+  "H5ID": {
+    "prefix": ["h5id"],
+    "body": ["##### ${1:H5}  {#${2:head_1}}"],
+    "description": "H5 with id"
+  },
+  "H6ID": {
+    "prefix": ["h6id"],
+    "body": ["###### ${1:H6}  {#${2:head_1}}"],
+    "description": "H6 with id"
+  },
   "Quote": {
     "prefix": ["quote", "quo", "yinyong"],
     "body": [
@@ -102,6 +132,11 @@
     ],
     "description": "Link"
   },
+  "AutoLink": {
+    "prefix": ["alink", "al"],
+    "body": ["<${1:me.example@example.com}>"],
+    "description": "Auto Link"
+  },
   "Image": {
     "prefix": ["img", "image"],
     "body": [
@@ -109,10 +144,17 @@
     ],
     "description": "Image"
   },
+  "ImageWH": {
+    "prefix": ["img", "image"],
+    "body": [
+      "![1:alt text](${2:Image's src}){:height='${3:36px}' width='${4:36px}'}"
+    ],
+    "description": "Image with width height"
+  },
   "Code": {
     "prefix": ["code", "co"],
     "body": [
-      "```${1|javascript,markdown,bash,rust,java,python,php,go|}",
+      "```${1|javascript,css,html,markdown,bash,rust,java,python,php,go|}",
       "\tif (isAwesome){",
       "\t\treturn true",
       "\t}",
@@ -129,5 +171,31 @@
     "prefix": ["task"],
     "body": ["- [${1| ,x|}] ${2:This is a complete item}"],
     "description": "TasksLists"
+  },
+  "Abbreviations": {
+    "prefix": ["abb"],
+    "body": ["*[${1:HTML}]: ${2:HyperText Markup Language}"],
+    "description": "Abbreviations"
+  },
+  "GithubCDN": {
+    "prefix": ["ghcdn"],
+    "body": [
+      "https://cdn.jsdelivr.net/gh/${1:user}/${2:repo}@${3:version}/{4:file path}"
+    ],
+    "description": "Jsdelivr github cdn"
+  },
+  "NpmCDN": {
+    "prefix": ["npmcdn"],
+    "body": [
+      "https://cdn.jsdelivr.net/npm/${1:package}@${2:version}/{3:file path}"
+    ],
+    "description": "Jsdelivr npm cdn"
+  },
+  "WPCDN": {
+    "prefix": ["wpcdn"],
+    "body": [
+      "https://cdn.jsdelivr.net/wp/${1:plugins}/${2:project}/${3:tags}/${4:version}/{4:file path}"
+    ],
+    "description": "Jsdelivr wordpress cdn"
   }
 }
