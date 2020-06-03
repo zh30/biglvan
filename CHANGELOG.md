@@ -1,3 +1,11 @@
+# [0.5.0](https://github.com/zhanghecool/biglvan/compare/v0.4.0...v0.5.0) (2020-06-03)
+
+
+### Features
+
+* **md.snippets.json:** 优化md用户代码片段 ([782e8bf](https://github.com/zhanghecool/biglvan/commit/782e8bf896f4f951ceda758147b59de1c673b039))
+* **readme.md:** 修改README.md文档 ([33fb584](https://github.com/zhanghecool/biglvan/commit/33fb584d1b39bc0548a9fb4fb6e7bce157ac64f2))
+
 # [0.4.0](https://github.com/zhanghecool/biglvan/compare/v0.3.6...v0.4.0) (2020-05-29)
 
 
