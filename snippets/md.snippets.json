@@ -26,62 +26,62 @@
   },
   "H1": {
     "prefix": ["h1"],
-    "body": ["# ${1:H1}"],
+    "body": ["# ${1:H1}$0"],
     "description": "H1"
   },
   "H2": {
     "prefix": ["h2"],
-    "body": ["## ${1:H2}"],
+    "body": ["## ${1:H2}$0"],
     "description": "H2"
   },
   "H3": {
     "prefix": ["h3"],
-    "body": ["### ${1:H3}"],
+    "body": ["### ${1:H3}$0"],
     "description": "H3"
   },
   "H4": {
     "prefix": ["h4"],
-    "body": ["#### ${1:H4}"],
+    "body": ["#### ${1:H4}$0"],
     "description": "H4"
   },
   "H5": {
     "prefix": ["h5"],
-    "body": ["##### ${1:H5}"],
+    "body": ["##### ${1:H5}$0"],
     "description": "H5"
   },
   "H6": {
     "prefix": ["h6"],
-    "body": ["###### ${1:H6}"],
+    "body": ["###### ${1:H6}$0"],
     "description": "H6"
   },
   "H1ID": {
     "prefix": ["h1id"],
-    "body": ["# ${1:H1}  {#${2:head_1}}"],
+    "body": ["# ${1:H1}  {#${2:head_1}}$0"],
     "description": "H1 with id"
   },
   "H2ID": {
     "prefix": ["h2id"],
-    "body": ["## ${1:H2}  {#${2:head_1}}"],
+    "body": ["## ${1:H2}  {#${2:head_2}}$0"],
     "description": "H2 with id"
   },
   "H3ID": {
     "prefix": ["h3id"],
-    "body": ["### ${1:H3}  {#${2:head_1}}"],
+    "body": ["### ${1:H3}  {#${2:head_3}}$0"],
     "description": "H3 with id"
   },
   "H4ID": {
     "prefix": ["h4id"],
-    "body": ["#### ${1:H4}  {#${2:head_1}}"],
+    "body": ["#### ${1:H4}  {#${2:head_4}}$0"],
     "description": "H4 with id"
   },
   "H5ID": {
     "prefix": ["h5id"],
-    "body": ["##### ${1:H5}  {#${2:head_1}}"],
+    "body": ["##### ${1:H5}  {#${2:head_5}}$0"],
     "description": "H5 with id"
   },
   "H6ID": {
     "prefix": ["h6id"],
-    "body": ["###### ${1:H6}  {#${2:head_1}}"],
+    "body": ["###### ${1:H6}  {#${2:head_6}}$0"],
     "description": "H6 with id"
   },
   "Quote": {
@@ -180,21 +180,21 @@
   "GithubCDN": {
     "prefix": ["cdngh"],
     "body": [
-      "https://cdn.jsdelivr.net/gh/${1:user}/${2:repo}@${3:version}/{4:file path}"
+      "https://cdn.jsdelivr.net/gh/${1:user}/${2:repo}@${3:version}/${4:file path}"
     ],
     "description": "Jsdelivr github cdn"
   },
   "NpmCDN": {
     "prefix": ["cdnnpm"],
     "body": [
-      "https://cdn.jsdelivr.net/npm/${1:package}@${2:version}/{3:file path}"
+      "https://cdn.jsdelivr.net/npm/${1:package}@${2:version}/${3:file path}"
     ],
     "description": "Jsdelivr npm cdn"
   },
   "WPCDN": {
     "prefix": ["cdnwp"],
     "body": [
-      "https://cdn.jsdelivr.net/wp/${1:plugins}/${2:project}/${3:tags}/${4:version}/{4:file path}"
+      "https://cdn.jsdelivr.net/wp/${1:plugins}/${2:project}/${3:tags}/${4:version}/${4:file path}"
     ],
     "description": "Jsdelivr wordpress cdn"
   }
