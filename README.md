@@ -9,9 +9,7 @@ User code snippets for markdown and deno
 
 # Markdown shortcuts
 
-**Use markdown shortcuts need to change settings**
-
-<div align="center"><iframe src="//player.bilibili.com/player.html?aid=583404938&bvid=BV1qz4y197JJ&cid=198496795&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe></div>
+**Use markdown shortcuts need to change settings:**    [wiki](https://github.com/zhanghecool/biglvan/wiki/Use-markdown-shortcuts) and [bilibili](https://www.bilibili.com/video/BV1qz4y197JJ/)
 
 ### `tab | table`
 
