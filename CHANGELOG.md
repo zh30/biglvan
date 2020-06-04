@@ -1,3 +1,10 @@
+## [0.6.1](https://github.com/zhanghecool/biglvan/compare/v0.6.0...v0.6.1) (2020-06-04)
+
+
+### Bug Fixes
+
+* **old.md:** 删除无用示例 ([470f58a](https://github.com/zhanghecool/biglvan/commit/470f58a2ec4c837cf9135b22b61891487be84f4c))
+
 # [0.6.0](https://github.com/zhanghecool/biglvan/compare/v0.5.0...v0.6.0) (2020-06-04)
 
 
