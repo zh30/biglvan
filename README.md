@@ -5,7 +5,7 @@
 
 User code snippets for markdown and deno
 
-<div align="center"><a href="https://zhanghe.cool" alt="Big lvan"><img src="https://cdn.jsdelivr.net/gh/zhanghecool/assets/images/gif/zhanghecool.gif" width="auto" /></a></div>
+<div align="center"><a href="https://zhanghe.cool" alt="Big lvan"><img src="https://cdn.jsdelivr.net/gh/zhanghecool/assets/images/gif/zhanghecool.gif?raw=true" width="auto" /></a></div>
 
 # Markdown shortcuts
 
