@@ -1,3 +1,10 @@
+# [0.7.0](https://github.com/zhanghecool/biglvan/compare/v0.6.1...v0.7.0) (2020-07-30)
+
+
+### Features
+
+* **js.snippets.json:** add colors in javascript console ([b994550](https://github.com/zhanghecool/biglvan/commit/b9945503b0a9293e36f9301f70fb4745a8d54911))
+
 ## [0.6.1](https://github.com/zhanghecool/biglvan/compare/v0.6.0...v0.6.1) (2020-06-04)
 
 
