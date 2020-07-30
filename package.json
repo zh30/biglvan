@@ -2,7 +2,7 @@
   "name": "biglvan",
   "icon": "assets/icons/logo.png",
   "displayName": "Big Lvan",
-  "description": "User code snippets for markdown and deno",
+  "description": "User code snippets for markdown",
   "version": "0.6.1",
   "publisher": "ZhangHe",
   "engines": {
@@ -17,7 +17,6 @@
     "Snippets"
   ],
   "keywords": [
-    "Deno",
     "Toolkit",
     "Snippets",
     "markdown"
@@ -30,7 +29,7 @@
     "snippets": [
       {
         "language": "javascript",
-        "path": "./snippets/deno.snippets.json"
+        "path": "./snippets/js.snippets.json"
       },
       {
         "language": "typescript",
