@@ -1,3 +1,10 @@
+# [0.8.0](https://github.com/zhanghecool/biglvan/compare/v0.7.0...v0.8.0) (2020-09-22)
+
+
+### Features
+
+* **md.snippets.json:** 升级tab ([295b3bf](https://github.com/zhanghecool/biglvan/commit/295b3bf1d0944957b7495c2c02ccb45b3e5c4ee5))
+
 # [0.7.0](https://github.com/zhanghecool/biglvan/compare/v0.6.1...v0.7.0) (2020-07-30)
 
 
