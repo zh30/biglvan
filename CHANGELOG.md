@@ -1,3 +1,10 @@
+# [0.9.0](https://github.com/zhanghecool/biglvan/compare/v0.8.0...v0.9.0) (2020-11-07)
+
+
+### Features
+
+* **yarn.lock:** upgrade yarn.lock package ([60a1c8f](https://github.com/zhanghecool/biglvan/commit/60a1c8fdfb06846b3a988657279c922fc69893e8))
+
 # [0.8.0](https://github.com/zhanghecool/biglvan/compare/v0.7.0...v0.8.0) (2020-09-22)
 
 
