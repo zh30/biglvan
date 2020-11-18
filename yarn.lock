@@ -4475,9 +4475,9 @@ safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   integrity sha1-RPoWGwGHuVSd2Eu5GAL5vYOFzWo=
 
 semantic-release@^17.0.8:
-  version "17.2.2"
-  resolved "https://registry.npm.taobao.org/semantic-release/download/semantic-release-17.2.2.tgz#520dae9cd188c7cdcc5216a7aad131548fc5cec7"
-  integrity sha1-Ug2unNGIx83MUhanqtExVI/Fzsc=
+  version "17.2.3"
+  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-17.2.3.tgz#11f10b851d4e75b1015b17515c433049b3df994c"
+  integrity sha512-MY1MlowGQrkOR7+leOD8ICkVOC6i1szbwDODdbJ0UdshtMx8Ms0bhpRQmEEliqYKEb5PLv/dqs6zKKuHT7UxTg==
   dependencies:
     "@semantic-release/commit-analyzer" "^8.0.0"
     "@semantic-release/error" "^2.2.0"
