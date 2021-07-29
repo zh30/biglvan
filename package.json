@@ -3,7 +3,7 @@
   "icon": "assets/icons/logo.png",
   "displayName": "Big Lvan",
   "description": "User code snippets for markdown",
-  "version": "0.10.0",
+  "version": "0.11.0",
   "publisher": "ZhangHe",
   "engines": {
     "vscode": "^1.40.0"
