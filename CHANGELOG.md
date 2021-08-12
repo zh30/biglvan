@@ -1,3 +1,10 @@
+# [0.12.0](https://github.com/zhanghecool/biglvan/compare/v0.11.0...v0.12.0) (2021-08-12)
+
+
+### Features
+
+* **package:** upgrade package ([c30ab17](https://github.com/zhanghecool/biglvan/commit/c30ab17ff122431279f2ee840cc4eac7783be008))
+
 # [0.11.0](https://github.com/zhanghecool/biglvan/compare/v0.10.0...v0.11.0) (2021-07-29)
 
 
