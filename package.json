@@ -17,9 +17,11 @@
     "Snippets"
   ],
   "keywords": [
-    "Toolkit",
-    "Snippets",
-    "markdown"
+    "CSS",
+    "HTML",
+    "JavaScript",
+    "TypeScript",
+    "scss"
   ],
   "activationEvents": [
     "onCommand:extension.helloWorld"
@@ -32,8 +34,24 @@
         "path": "./snippets/js.snippets.json"
       },
       {
+        "language": "javascriptreact",
+        "path": "./snippets/js.react.snippets.json"
+      },
+      {
         "language": "typescript",
-        "path": "./snippets/deno.snippets.json"
+        "path": "./snippets/ts.snippets.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/ts.react.snippets.json"
+      },
+      {
+        "language": "css",
+        "path": "./snippets/css.snippets.json"
+      },
+      {
+        "language": "scss",
+        "path": "./snippets/scss.snippets.json"
       },
       {
         "language": "markdown",

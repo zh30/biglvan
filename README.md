@@ -1,5 +1,3 @@
-![biglvan](https://socialify.git.ci/zhanghecool/biglvan/image?description=1&font=Inter&language=1&owner=1&pattern=Floating%20Cogs&theme=Light)
-
 [![Marketplace Version](https://vsmarketplacebadge.apphb.com/version/zhanghe.biglvan.svg)](https://marketplace.visualstudio.com/items?itemName=zhanghe.biglvan) [![Installs](https://vsmarketplacebadge.apphb.com/installs/zhanghe.biglvan.svg)](https://marketplace.visualstudio.com/items?itemName=zhanghe.biglvan) [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/zhanghecool/biglvan.svg)](https://github.com/zhanghecool/biglvan)
 [![GitHub](https://img.shields.io/github/license/zhanghecool/biglvan.svg)](https://github.com/zhanghecool/biglvan) [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release) [![Twitter Follow](https://img.shields.io/twitter/follow/zhanghecool.svg?style=social)](https://twitter.com/zhanghecool)
 
