@@ -1,0 +1,66 @@
+{
+  "fontsize lineheight": {
+    "prefix": ["fslh"],
+    "body": ["font-size: ${1:16}px;", "line-height: ${2:24}px;"],
+    "description": "font-size, line-height ( Big Lvan )"
+  },
+  "width height": {
+    "prefix": ["wh"],
+    "body": ["width: ${1:1280}px;", "height: ${2:344}px;"],
+    "description": "width, height ( Big Lvan )"
+  },
+  "text ellipsis": {
+    "prefix": ["te"],
+    "body": [
+      "overflow: hidden;",
+      "white-space: nowrap;",
+      "text-overflow: ellipsis;",
+      "width: 100%;"
+    ],
+    "description": "单行文字溢出解决方案 ( Big Lvan )"
+  },
+  "text ellipsis multiline": {
+    "prefix": ["tem"],
+    "body": [
+      "position: relative;",
+      "line-height: ${1:24}px;",
+      "height: ${2:48}px;",
+      "font-size: ${3:16}px;",
+      "overflow: hidden;",
+      "display: block;",
+      "width: 100%;",
+      "",
+      "\t&:after {",
+      "\t\tcontent: '';",
+      "\t\tposition: absolute;",
+      "\t\tbottom: 0;",
+      "\t\tright: 0;",
+      "\t\twidth: 150px;",
+      "\t\theight: ${1}px;",
+      "\t\tbackground: linear-gradient(to right, rgba(0, 0, 0, 0), #ffffff 50%);",
+      "\t}"
+    ],
+    "description": "多行文字溢出解决方案 ( Big Lvan )"
+  },
+  "text ellipsis WebKit": {
+    "prefix": ["temw"],
+    "body": [
+      "overflow: hidden;",
+      "display: -webkit-box;",
+      "text-overflow: ellipsis;",
+      "-webkit-line-clamp: ${1|2,3,4,5|};",
+      "-webkit-box-orient: vertical;"
+    ],
+    "description": "WebKit内核浏览器文字多行溢出解决方案 ( Big Lvan )"
+  },
+  "horizontal vertical center": {
+    "prefix": ["hvc"],
+    "body": [
+      "position: absolute;",
+      "top: 50%;",
+      "left: 50%;",
+      "transform: translate(-50%, -50%);"
+    ],
+    "description": "元素横纵向居中显示 ( Big Lvan )"
+  }
+}

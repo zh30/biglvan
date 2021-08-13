@@ -1,0 +1,283 @@
+{
+  "Effect Hook": {
+    "prefix": ["hue", "useEffect"],
+    "body": [
+      "useEffect(() => {",
+      "\t${1:// componentDidMount || componentDidUpdate}",
+      "\t",
+      "\treturn () => {",
+      "\t\t${2:// componentWillUnmount}",
+      "\t}",
+      "}, [${3:input}])"
+    ],
+    "description": "Effect Hook 可以让你在函数组件中执行副作用操作。如果你熟悉 React class 的生命周期函数，你可以把 useEffect Hook 看做 componentDidMount，componentDidUpdate 和 componentWillUnmount 这三个函数的组合。"
+  },
+  "Callback Hook": {
+    "prefix": ["hucb", "useCallback"],
+    "body": [
+      "const ${1:memoizedCallback} = useCallback(",
+      "\t() => {",
+      "\t\t${2:// doSomething(a, b);}",
+      "\t},",
+      "\t[a, b],",
+      ")"
+    ],
+    "description": "Pass an inline callback and an array of dependencies. useCallback will return a memoized version of the callback that only changes if one of the dependencies has changed. This is useful when passing callbacks to optimized child components that rely on reference equality to prevent unnecessary renders (e.g. shouldComponentUpdate)."
+  },
+  "State Hook": {
+    "prefix": ["hus", "useState"],
+    "body": "const [${1:state}, set${1/(.*)/${1:/capitalize}/}] = useState(${2:initialState})$0",
+    "description": "State Hook 让我们在 React 函数组件上添加内部 state。useState() 方法里面唯一的参数就是初始 state(initialState)。返回值为：当前 state(state) 以及更新 state 的函数(setState)。"
+  },
+  "Context Hook": {
+    "prefix": ["huc", "useContext"],
+    "body": "const ${1:context} = useContext(${2:initialContext})$0",
+    "description": "Context Hook 接收一个 context 对象（React.createContext 的返回值）并返回该 context 的当前值。当前的 context 值由上层组件中距离当前组件最近的 <MyContext.Provider> 的 value prop 决定。* 别忘记 useContext 的参数必须是 context 对象本身。"
+  },
+  "Ref Hook": {
+    "prefix": ["hur", "useRef"],
+    "body": "const ${1:refContainer} = useRef(${2:initialRef})$0",
+    "description": "Ref Hook 返回一个可变的 ref 对象，其 .current 属性被初始化为传入的参数（initialRef）。返回的 ref 对象在组件的整个生命周期内保持不变。"
+  },
+  "Memo Hook": {
+    "prefix": ["hum", "useMemo"],
+    "body": "const ${1:memoizedValue} = useMemo(() => ${2:computeExpensiveValue}(a, b), [a, b]);$0",
+    "description": "Pass a “create” function and an array of dependencies. useMemo will only recompute the memoized value when one of the dependencies has changed. This optimization helps to avoid expensive calculations on every render."
+  },
+  "Reducer Hook": {
+    "prefix": ["hurd", "useReducer"],
+    "body": "const [${1:state}, ${2:dispatch}] = useReducer(${3:reducer}, ${4:initialArg}, ${5:init});$0",
+    "description": "useReducer is usually preferable to useState when you have complex state logic that involves multiple sub-values or when the next state depends on the previous one."
+  },
+  "ImperativeHandle Hook": {
+    "prefix": ["huih", "useImperativeHandle"],
+    "body": "useImperativeHandle(${1:ref}, ${2:createHandle}, [${3:deps}])$0",
+    "description": "useImperativeHandle customizes the instance value that is exposed to parent components when using ref. As always, imperative code using refs should be avoided in most cases. useImperativeHandle should be used with forwardRef."
+  },
+  "Internal function component": {
+    "prefix": ["ifc", "internalFunctionComponent"],
+    "body": [
+      "const ${1/(.*)/${1:/capitalize}/} = ({",
+      "\tclassName = '',",
+      "\t${2:// props},",
+      "}) => {",
+      "\t${3:// TODO}",
+      "",
+      "\treturn ${4:// TODO}",
+      "}"
+    ],
+    "description": "创建子函数组件 ( Big Lvan )"
+  },
+  "Function component": {
+    "prefix": ["fc", "functionComponent"],
+    "body": [
+      "import React from 'react';",
+      "import withStyles from 'isomorphic-style-loader/lib/withStyles';",
+      "import cs from 'classnames';",
+      "import styles from './$TM_FILENAME_BASE.scss';",
+      "",
+      "const $TM_FILENAME_BASE = ({",
+      "\tclassName = '',",
+      "\t${2:// props},",
+      "}) => {",
+      "\t${3:// TODO}",
+      "",
+      "\treturn ${4:// TODO}",
+      "}",
+      "",
+      "export default withStyles(styles)($TM_FILENAME_BASE);"
+    ],
+    "description": "创建函数组件 ( Big Lvan )"
+  },
+  "Class component": {
+    "prefix": ["cc", "classComponent"],
+    "body": [
+      "import React, { Component } from 'react';",
+      "import PropTypes from 'prop-types';",
+      "import withStyles from 'isomorphic-style-loader/lib/withStyles';",
+      "import cs from 'classnames';",
+      "import styles from './$TM_FILENAME_BASE.scss';",
+      "",
+      "class $TM_FILENAME_BASE extends Component {",
+      "\tstatic propTypes = {",
+      "\t\t// ${2:propName}: PropTypes.${3:string},",
+      "\t}",
+      "\t",
+      "\tstatic defaultProps = {",
+      "\t\t// ${2}: ${4:\"\"},",
+      "\t}",
+      "\t",
+      "\tstate = {",
+      "\t\t// ${5:stateName}: ${6:\"\"},",
+      "\t}",
+      "\t",
+      "\trender() {",
+      "\t\tconst { ${2} } = this.props;",
+      "\t\tconst { ${5} } = this.state;",
+      "",
+      "\t\treturn (",
+      "\t\t\t${7:// TODO}",
+      "\t\t)",
+      "\t}",
+      "}",
+      "",
+      "export default withStyles(styles)($TM_FILENAME_BASE);"
+    ],
+    "description": "创建Class组件 ( Big Lvan )"
+  },
+  "Static propTypes": {
+    "prefix": ["ccsp"],
+    "body": [
+      "static propTypes = {",
+      "\t${1}: PropTypes.${2:string},",
+      "}",
+      "",
+      "$0"
+    ],
+    "description": "声明 propTypes 静态方法 ( Big Lvan )"
+  },
+  "Static defaultProps": {
+    "prefix": ["ccsd", "defaultProps"],
+    "body": [
+      "static defaultProps = {",
+      "\t${1}: PropTypes.${2:string},",
+      "}",
+      "",
+      "$0"
+    ],
+    "description": "声明 defaultProps 静态方法 ( Big Lvan )"
+  },
+  "State object": {
+    "prefix": ["state"],
+    "body": ["state = {", "\t${1}", "}", "", "$0"],
+    "description": "声明 state 对象 ( Big Lvan )"
+  },
+  "ClassComponent handle function": {
+    "prefix": ["cchf", "classHandleFunction"],
+    "body": [
+      "handle${1/(.*)/${1:/capitalize}/} = ({ ${2} }) => {",
+      "\t${3}",
+      "}",
+      "",
+      "$0"
+    ],
+    "description": "声明 class 组件内部处理函数 ( Big Lvan )"
+  },
+  "FunctionComponent handle function": {
+    "prefix": ["fchf", "functionHandleFunction"],
+    "body": [
+      "const handle${1/(.*)/${1:/capitalize}/} = (${2}) => {",
+      "\t${3}",
+      "}",
+      "",
+      "$0"
+    ],
+    "description": "声明函数组件内部处理函数 ( Big Lvan )"
+  },
+  "Destructuring props": {
+    "prefix": ["tp"],
+    "body": ["const { ${1} } = this.props;", "$0"],
+    "description": "解构 props ( Big Lvan )"
+  },
+  "Destructuring state": {
+    "prefix": ["ts"],
+    "body": ["const { ${1} } = this.state;", "$0"],
+    "description": "解构 state ( Big Lvan )"
+  },
+  "Import": {
+    "prefix": ["import", "imp", "ir"],
+    "body": "import ${2:React} from '${1:react}';$0",
+    "description": "导入其他包到本文件 ( Big Lvan )"
+  },
+  "Import withStyles": {
+    "prefix": ["importwithStyles", "imws"],
+    "body": "import ${1:withStyles} from '${2:isomorphic-style-loader/lib/withStyles}';$0",
+    "description": "导入 withStyles 包到本文件 ( Big Lvan )"
+  },
+  "Import classnames": {
+    "prefix": ["importclassnames", "imcn"],
+    "body": "import ${1:cs} from '${2:classnames}';$0",
+    "description": "导入 classnames 包到本文件 ( Big Lvan )"
+  },
+  "Export": {
+    "prefix": ["export", "exp", "ed"],
+    "body": "export default ${1};$0",
+    "description": "导出包 ( Big Lvan )"
+  },
+  "Export const": {
+    "prefix": ["exportc", "expc", "ec"],
+    "body": "export const ${1} = ${2:()} => ${3};$0",
+    "description": "导出包 ( Big Lvan )"
+  },
+  "Console info": {
+    "prefix": ["cin", "consoleinfo"],
+    "body": "console.info('${1/(.*)/${1:/capitalize}/}: ', ${1:subst});$0",
+    "description": "Console info ( Big Lvan )"
+  },
+  "Console log": {
+    "prefix": ["clo", "consolelog"],
+    "body": "console.log('${1/(.*)/${1:/capitalize}/}: ', ${1:subst});$0",
+    "description": "Console log ( Big Lvan )"
+  },
+  "Console error": {
+    "prefix": ["cer", "consoleerror"],
+    "body": "console.error('${1/(.*)/${1:/capitalize}/}: ', ${1:subst});$0",
+    "description": "Console error ( Big Lvan )"
+  },
+  "Console dir": {
+    "prefix": ["cdi", "consoledir"],
+    "body": "console.dir(${1:obj});$0",
+    "description": "Console dir ( Big Lvan )"
+  },
+  "Console table": {
+    "prefix": ["cta", "consoletable"],
+    "body": "console.table(${1:data}, ${2:columns});$0",
+    "description": "Console table ( Big Lvan )"
+  },
+  "Console time": {
+    "prefix": ["cti", "consoletime"],
+    "body": "console.time(${1:label});$0",
+    "description": "Console time ( Big Lvan )"
+  },
+  "Console timeEnd": {
+    "prefix": ["cte", "consoletimeend"],
+    "body": "console.timeEnd(${1:label});$0",
+    "description": "Console timeEnd ( Big Lvan )"
+  },
+  "Console timeLog": {
+    "prefix": ["ctl", "consoletimeLog"],
+    "body": "console.timeLog(${1:label});$0",
+    "description": "Console timeLog ( Big Lvan )"
+  },
+  "Console warn": {
+    "prefix": ["cwa", "consolewarn"],
+    "body": "console.warn('${1/(.*)/${1:/capitalize}/}: ', ${1:subst});$0",
+    "description": "Console warn ( Big Lvan )"
+  },
+  "Console clear": {
+    "prefix": ["ccl", "consoleclear"],
+    "body": "console.clear();$0",
+    "description": "Console clear ( Big Lvan )"
+  },
+  "Console count": {
+    "prefix": ["cco", "consolecount"],
+    "body": "console.count(${1:label});$0",
+    "description": "Console count ( Big Lvan )"
+  },
+  "Comments functions": {
+    "prefix": ["cmmf", "commentsfunctions"],
+    "body": [
+      "/**",
+      " * ${1:用一句话介绍此函数是干嘛用的。}",
+      " *",
+      " * @param {${2|string,number,bool,object,null,undefined,function,Array,Date,RegExp,HTMLElement,HTMLInputElement|}} ${3:employee} - ${4:参数的介绍文字}",
+      " * @return {${5|string,number,bool,object,null,undefined,function,Array,Date,RegExp,HTMLElement,HTMLInputElement|}} ${6:函数返回的数据}",
+      " *",
+      " * @example",
+      " *",
+      " *     ${7:const xx = foo('hello')}",
+      " */"
+    ],
+    "description": "函数注释 ( Big Lvan )"
+  }
+}

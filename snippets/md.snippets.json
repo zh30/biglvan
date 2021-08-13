@@ -13,7 +13,7 @@
       "\t- ${6:Javascript}",
       "---"
     ],
-    "description": "添加文章配置信息"
+    "description": "添加文章配置信息 ( Big Lvan )"
   },
   "Table": {
     "prefix": ["tab", "table"],
@@ -22,7 +22,7 @@
       "| ----- | :-: | ---: |",
       "| ${4:He}    | ${5:18}  |  ${6:Yes} |"
     ],
-    "description": "Markdown tables support"
+    "description": "Markdown tables support ( Big Lvan )"
   },
   "Table1": {
     "prefix": ["tab4", "table4"],
@@ -31,7 +31,7 @@
       "| ----- | :-: | :-: | ---: |",
       "| ${5:He}    | ${6:18}  | ${7:男}  |  ${8:Yes} |"
     ],
-    "description": "Markdown tables support"
+    "description": "Markdown tables support ( Big Lvan )"
   },
   "Table2": {
     "prefix": ["tab5", "table5"],
@@ -40,7 +40,7 @@
       "| ----- | :-: | :-: | :-: | ---: |",
       "| ${6:He}    | ${7:18} | ${8:男} | ${9:180} |  ${10:Yes} |"
     ],
-    "description": "Markdown tables support"
+    "description": "Markdown tables support ( Big Lvan )"
   },
   "H1": {
     "prefix": ["h1"],
